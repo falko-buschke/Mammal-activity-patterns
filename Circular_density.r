@@ -33,7 +33,6 @@ times.24 <- mam$Hour + (mam$Minute/60)
 
 # This converts the time (in decimal hours) into radians so that time is circular
 time.rad <- (times.24*pi)/12
-bin.rad <- (bins*pi)/12
 
 # This creates a vector of unique species names
 Sp.id <- unique(mam$Species)
