@@ -40,7 +40,7 @@ Sp.id <- unique(mam$Species)
 # This is an automated loop to creat a activity plot for each species
 # The plots will be saved in your working directory
 
-for (i in 1:length(Sp.id) {
+for (i in 1:length(Sp.id)) {
   #Create a time vector for each species
   time.sp <- time.rad[which(mam$Species==Sp.id[i])]
   # This fits the circular density. If you want to plot the bootstapped confidence 
